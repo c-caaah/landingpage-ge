@@ -1,1 +1,1 @@
-# template-ge
+# landingpage-ge
