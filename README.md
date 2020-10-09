@@ -19,7 +19,7 @@
 <p> Projeto incial para criação de uma landing page</p>
 
 ## Roadmap
-![](./static/roadmap.jpg)
+![](./static/road.jpg)
 
 ## Features
 
