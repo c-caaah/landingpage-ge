@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600&display=swap");
+
+img {
+    width: 19rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.93);
+}
+
+a:hover,
+a:focus {
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  transform: scale(1.3);
+}
+
+section {
+  border: solid 2px #000;
+  box-shadow: 0 3px 60px -10px rgba(0, 0, 0, 0.3);
+  margin: 0 0 7rem;
+}
+
+.navbar-brand {
+  font-size: 6vmin;
+  font-weight: 600;
+  padding-left: 2rem;
+  letter-spacing: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.navbar-list {
+  display: flex;
+  flex-basis: 75%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-list li {
+  margin-right: 2rem;
+  letter-spacing: 2px;
+}
+
+input {
+  height: 35px;
+  border-radius: 50px;
+  border: solid 1px rgb(224, 224, 224);
+  padding: 0.5rem;
+  max-width: 9.3rem;
+}
+
+@media (max-width: 1080px) {
+  .navbar-list li {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar-list {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar-brand {
+    letter-spacing: 0.5rem;
+    padding-left: 0;
+    font-weight: 400;
+  }
+
+  .fa-hamburger {
+    font-size: 6.5vmin;
+  }
+}
