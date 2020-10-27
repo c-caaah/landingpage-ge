@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600&display=swap");
 
-img {
+.logo {
     width: 19rem;
 }
 
@@ -37,7 +37,6 @@ button:focus {
 section {
   border: solid 2px #000;
   box-shadow: 0 3px 60px -10px rgba(0, 0, 0, 0.3);
-  margin: 0 0 7rem;
 }
 
 .navbar-brand {
@@ -103,4 +102,26 @@ input {
   .fa-hamburger {
     font-size: 6.5vmin;
   }
+}
+
+/*about*/
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.img-about {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 10rem;
+  border: 5px solid black;
+}
+
+.text {
+  margin: 3rem;
 }
