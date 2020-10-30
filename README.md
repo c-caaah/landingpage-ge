@@ -10,14 +10,14 @@
 
 <p align="center">
  <a href="#Descrição do Projeto">Descrição do Projeto</a> •
- <a href="#roadmap">Roadmap</a> • 
- <a href="#Features">Features</a> • 
- <a href="#Status do Projeto">Status do Projeto</a> • 
- <a href="#Para contribuir com o projeto">SPara contribuir com o projeto</a> • 
+ <a href="#roadmap">Roadmap</a> •
+ <a href="#Features">Features</a> •
+ <a href="#Status do Projeto">Status do Projeto</a> •
+ <a href="#Para contribuir com o projeto">SPara contribuir com o projeto</a> •
 </p>
 
 ## Descrição do Projeto
-<p> Projeto incial para criação de uma landing page</p>
+<p> Projeto inicial para criação de uma landing page</p>
 
 ## Roadmap
 ![](./static/roadmap.jpg)
@@ -26,13 +26,23 @@
 
 - [ ] Cadastro de e-mail para contato
 - [ ] Redirecionamento para outros canais
-- [ ] Sessão redes sociais 
-- [ ] Sessão sobre 
+- [ ] Sessão redes sociais
+- [ ] Sessão sobre
 - [ ] Contato
 - [ ] 🚧 🚀 Em construção...  🚧
 
+## Cores
+
+Seguir a paleta de cores definidas a seguir:
+![](./static/paleta-cores.jpg)
+
+- #9B614D - Terracota
+- #F6B233 - Mostarda
+- #4C513B - Verde
+- #6A6B71 - Cinza sugerido (este pode variar conforme a necessidade, garantindo bom contraste e visibilidade nos textos)
+
 ## Status do Projeto
-<h4> 
+<h4>
 	🚧🚀 Em construção...  🚧
 </h4>
 
