@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
 
 body {font-family: 'Montserrat', sans-serif;font-size:16px;color:#6A6B71}
 h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;font-weight:600;color:#dd3333}
+h1 {font-weight:bold; color:#F6B233}
 
 /*
   padrões de cores
   cinza: #6A6B71
-  terracora: #dd3333
+  terracora: #9B614D ou #dd3333 ?
+  mostarda: #F6B233
   ...
 */
 
@@ -107,6 +109,40 @@ input {
   .fa-hamburger {
     font-size: 6.5vmin;
   }
+}
+
+.hello {
+  height: 90rem;
+  background-image: url("static/cah.jpg");
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-basis: 65%;
+  align-items: center;
+
+}
+.hello h1 {
+  width: 90%;
+  text-align: center;
+  font-weight: 600;
+}
+.hello ul {
+  clear: both;
+  width: 90%;
+  text-align: center;
+
+}
+.hello ul li {
+  display: inline;
+  float: left;
+  margin: 15px
+}
+.hello ul li a {
+  width: 36px;
+  display: block;
+}
+.hello ul li a img {
+  width: 36px
 }
 
 /*about*/
