@@ -1,4 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;font-size:16px;color:#6A6B71}
+h1,h2,h3,h4,h5,h6 {font-family: 'Montserrat', sans-serif;font-weight:600;color:#dd3333}
+
+/*
+  padrões de cores
+  cinza: #6A6B71
+  terracora: #dd3333
+  ...
+*/
 
 .logo {
     width: 19rem;
@@ -32,11 +42,6 @@ button {
 button:hover,
 button:focus {
   transform: scale(1.3);
-}
-
-section {
-  border: solid 2px #000;
-  box-shadow: 0 3px 60px -10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-brand {
@@ -109,17 +114,13 @@ input {
 .about {
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 90%;
-  margin-right: 4rem;
-  margin-left: 4rem;
+  margin: 0 4rem;
 }
 
 .img-about {
   width: 18rem;
-  height: 18rem;
-  border-radius: 10rem;
-  border: 5px solid black;
+  margin: 3rem;
 }
 
 .text {
