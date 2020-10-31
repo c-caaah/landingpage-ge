@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap");
 
 /*
 padrões de cores
@@ -9,167 +9,184 @@ padrões de cores
 ...
 */
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size:16px;
-    color: #6A6B71
+:root {
+  --terracota: #9b614d;
+  --mostarda: #f6b233;
+  --verde: #4c513b;
+  --cinza: #6a6b71;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight:600;
-    color: #4C513B;
-    letter-spacing: 2px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: var(--cinza);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: var(--verde);
+  letter-spacing: 2px;
 }
 
 h1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: #9B614D;
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--terracota);
 }
 
 .logo {
-    width: 19rem;
+  width: 19rem;
 }
 
 a {
-    text-decoration: none;
-    color: #F6B233;
-    cursor: pointer;
+  text-decoration: none;
+  color: var(--mostarda);
+  cursor: pointer;
 }
 
 a:hover,
 a:focus {
-    color: #4C513B;
-    outline: none;
-}
-
-ul {
+  color: var(--verde);
+  outline: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    border: none;
-    background: transparent;
-    cursor: pointer;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 button:hover,
 button:focus {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .navbar-brand {
-    font-size: 6vmin;
-    font-weight: 600;
-    padding-left: 2rem;
-    letter-spacing: 1rem;
+  font-size: 6vmin;
+  font-weight: 600;
+  padding-left: 2rem;
+  letter-spacing: 1rem;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5%;
 }
 
 .navbar-menu {
-    display: none;
+  display: none;
 }
 
 .navbar-list {
-    display: flex;
-    flex-basis: 75%;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  flex-basis: 75%;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-list li {
-    margin-right: 2rem;
-    letter-spacing: 2px;
-    font-weight: 300;
+  margin-right: 2rem;
+  letter-spacing: 2px;
+  font-weight: 300;
 }
 
 input {
-    height: 35px;
-    border-radius: 50px;
-    border: solid 1px rgb(224, 224, 224);
-    padding: 0.5rem;
-    max-width: 9.3rem;
-}
-
-@media (max-width: 1080px) {
-    .navbar-list li {
-        margin-right: 1rem;
-    }
-}
-
-@media (max-width: 920px) {
-    .navbar-list {
-        display: none;
-    }
-
-    .navbar-menu {
-        display: block;
-    }
-}
-
-@media (max-width: 520px) {
-    .navbar-brand {
-        letter-spacing: 0.5rem;
-        padding-left: 0;
-        font-weight: 400;
-    }
-
-    .fa-hamburger {
-        font-size: 6.5vmin;
-    }
+  height: 35px;
+  border-radius: 50px;
+  border: solid 1px rgb(224, 224, 224);
+  padding: 0.5rem;
+  max-width: 9.3rem;
 }
 
 .hello {
-    height: 80rem;
-    background-image: url("../../static/cah.jpg");
-    background-repeat: no-repeat;
-    background-position: top center ;
-    display: flex;
-    align-items:center;
-
+  height: 80rem;
+  background-image: url("../../static/cah.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  align-items: center;
 }
 .hello div {
-    width: 100%;
-    display: block;
-    text-align: center;
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 .hello h1 {
-    font-weight: 600;
-    padding-top: 650px
+  font-weight: 600;
+  padding-top: 650px;
 }
 .hello ul li {
-    display: inline-block;
-    margin: 15px
+  display: inline-block;
+  margin: 15px;
 }
 .hello ul li a {
-    display: block;
-    color: #9B614D;
-    font-size: 48px;
+  display: block;
+  color: var(--terracota);
+  font-size: 48px;
 }
 
 /*about*/
-
 .about {
-    display: block;
-    justify-content: center;
-    width: 90%;
-    margin: 0 4rem;
+  display: block;
+  max-width: 90%;
+  margin: 0 4rem;
+  line-height: 1.5;
 }
 
 .img-about {
-    width: 18rem;
-    margin: 3rem;
+  width: 18rem;
+  margin: 3rem;
 }
 
 .text {
-    margin: 3rem;
+  margin: 3rem;
+}
+
+@media screen and (max-width: 520px) {
+  .navbar-brand {
+    letter-spacing: 0.5rem;
+    padding-left: 0;
+    font-weight: 400;
+  }
+
+  .fa-hamburger {
+    font-size: 6.5vmin;
+  }
+
+  .about {
+      margin: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .navbar-list {
+    display: none;
+  }
+
+  .navbar-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar-list li {
+    margin-right: 1rem;
+  }
 }
