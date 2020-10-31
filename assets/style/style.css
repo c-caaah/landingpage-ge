@@ -35,6 +35,7 @@ h1 {
 a {
     text-decoration: none;
     color: #F6B233;
+    cursor: pointer;
 }
 
 a:hover,
@@ -129,7 +130,7 @@ input {
 
 .hello {
     height: 80rem;
-    background-image: url("static/cah.jpg");
+    background-image: url("../../static/cah.jpg");
     background-repeat: no-repeat;
     background-position: top center ;
     display: flex;

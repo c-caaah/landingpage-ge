@@ -1,8 +1,8 @@
 # Landing Page | Garotas Enxaqueca
 
-[![Instagram](./static/instagram-logo.png)](https://instagram.com/garotasenxaqueca)
-[![Twitter](./static/twitter-logo.png)](https://twitter.com/calmacah)
-[![Youtube](./static/youtube-logo.png)](https://www.youtube.com/c/garotasenxaqueca)
+[![Instagram](./static/instagram.png)](https://instagram.com/garotasenxaqueca)
+[![Twitter](./static/twitter.png)](https://twitter.com/calmacah)
+[![Youtube](./static/youtube.png)](https://www.youtube.com/c/garotasenxaqueca)
 
 ![](./static/01_GE_Logo_black.png)
 
@@ -25,7 +25,7 @@
 ## Features
 
 - [ ] Cadastro de e-mail para contato
-- [ ] Redirecionamento para outros canais
+- [x] Redirecionamento para outros canais
 - [ ] Sessão redes sociais
 - [ ] Sessão sobre
 - [ ] Contato
